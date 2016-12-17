@@ -1,0 +1,7 @@
+from dialog_generator import DialogGenerator
+from conf import getTaskConfig
+
+conf = getTaskConfig()
+dg = DialogGenerator(conf)
+
+print dg.getActsSeq()

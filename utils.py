@@ -2,7 +2,7 @@ import random
 
 def random_select(lst):
     s = sum(v for (k, v) in lst)
-    uniform_lst = [(k, v/s) for (k, v) in lst]
+    uniform_lst = [(k, 1.0*v/s) for (k, v) in lst]
     p = 0
     rnd = random.random()
     for (k, v) in uniform_lst:

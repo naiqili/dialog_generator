@@ -1,0 +1,9 @@
+# even_name \t possible_start_time_range \t basic_dur \t possible_locs							             \t invite
+take_bus -  [(6, 0), (24, 0)]	-	 (0, 30) -    ['station1', 'station2', 'station3'] -					     n
+take_plane - [(0, 0), (24, 0)]	-	 (0, 30) -    ['airport1', 'airport2', 'airport3'] -					     n
+meeting	-   [(9, 0), (18, 0)]	-	 (1, 30) -    ['room 101', 'room 102', 'room 103'] -					     y
+movie	-   [(9, 0), (20, 0)]	-	 (2, 0)	 -    ['cinema', 'home']       	     	   -					     y
+sport	-   [(9, 0), (20, 0)]	-	 (1, 0)	 -    ['sport center', 'home']		   -					     y
+lunch	-   [(11, 0), (13, 0)]	-	 (1, 0)	 -    ['KFC', 'home', 'dinning hall']	   -					     y
+supper	-   [(17, 0), (20, 0)]	-	 (1, 0)	 -    ['KFC', 'home', 'dinning hall']	   -					     y
+game	-   [(9, 0), (20, 0)]	-	 (2, 0)	 -    ['home', 'net bar']      		   -					     y

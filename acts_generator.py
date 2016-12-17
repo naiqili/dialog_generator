@@ -1,11 +1,16 @@
 from utils import *
 from conf import *
+from event_generator import EventGenerator
+import copy
 
 class ActsGenerator(object):
     def __init__(self, conf):
         self.__dict__.update(conf)
         self.end_of_seq = False
         self.dialog_started = False
+        self.event_generator = EventGenerator()
+        self.event_name = self.event_generator.randomEventName()
+        self.state_list = []
         
     def processUserState(self):
         res = []
@@ -113,7 +118,7 @@ class ActsGenerator(object):
                 else:
                     self.state["role"] = "user" # Change role to user
             else: # User does not want report
-                res.append(set(("user_reject", )))
+                res.append(set(("user_dont_want_report", )))
                 res.append(set(("sys_finish", )))
                 self.end_of_seq = True
             return res
@@ -143,7 +148,10 @@ class ActsGenerator(object):
                 res.append(set(("user_start", )))
                 res.append(set(("sys_ack", )))
             self.dialog_started = True
-            return self.getNextActs()
+            if len(res) > 0: 
+                return res
+            else:
+                return self.getNextActs()
 
         if self.state["role"] == "user":
             res = self.processUserState()
@@ -153,6 +161,9 @@ class ActsGenerator(object):
         if res == []:
             return self.getNextActs()
         else:
+            cur_state = copy.deepcopy(self.state)
+            for k in range(len(res)):
+                self.state_list.append(cur_state)
             return res
 
     def getActsSeq(self):
@@ -164,10 +175,36 @@ class ActsGenerator(object):
             res = res + tmp
           
     def initValue(self, ont):
-        return ont + "_value"
+        if ont == "what":
+            return self.event_name
+        else:
+            name = self.event_name
+            if ont == "when_start":
+                res = self.event_generator.randomStartTime(name)
+            elif ont == "duration":
+                res = self.event_generator.randomDur(name)
+            elif ont == "who":
+                res = self.event_generator.randomNames()
+            elif ont == "where":
+                res = self.event_generator.randomLoc(name)
+            elif ont == "day":
+                res = self.event_generator.randomDay()
+            else:
+                res = "UNKNOW_ONTOLOGY_" + ont
+            res = str(res)
+            return res
 
     def changeValue(self, ont, prev_v):
-        return ont + "_change"
+        cnt = 0
+        while True:
+            cnt = cnt + 1
+            if cnt > 100:
+                return prev_v
+            if ont == 'what':
+                self.event_name = self.event_generator.randomEventName()
+            res = self.initValue(ont)
+            if res != prev_v:
+                return res
 
 if __name__=="__main__":
     conf = getDefaultConfig()
