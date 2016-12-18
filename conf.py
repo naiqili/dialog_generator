@@ -82,7 +82,7 @@ def getDetailedTaskConfig():
     conf["user_inform_skip_prob"] = 0.2
     conf["user_inform_new_weak_prob"] = 0.3
     conf["user_inform_new_know_prob"] = 0.5
-    conf["user_inform_change_prob"] = 0.1
+    conf["user_inform_change_prob"] = 0.07
 
     conf["report_correct_prob"] = 0.8
 

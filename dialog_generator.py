@@ -30,8 +30,8 @@ class DialogGenerator(object):
     
 
 if __name__=="__main__":
-    #conf = getDefaultConfig()
-    conf = getTaskConfig()
+    conf = getDefaultConfig()
+    #conf = getTaskConfig()
     dg = DialogGenerator(conf)
 
     for k in range(3):
