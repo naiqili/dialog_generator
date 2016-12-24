@@ -7,4 +7,6 @@ dg = DialogGenerator(conf)
 dg.genNew()
 print dg.getActsSeq()
 print
+print dg.getStateSeq()
+print
 print dg.getActsStr()
