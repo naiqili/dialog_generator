@@ -22,15 +22,21 @@ class ActsGenerator(object):
             res.append(set(("user_restart", )))
             res.append(set(("sys_ack", )))
             conf = getDefaultConfig()
-            self.state = conf["state"]
+            self.state = conf["state"]            
+            self.state_list.append(copy.deepcopy(self.state))
+            self.state_list.append(copy.deepcopy(self.state))
             return res
         elif nxt == "report":
             res.append(set(("user_report", )))
             res.append(set(("sys_report", )))
+            new_state = copy.deepcopy(self.state)
+            self.state_list.append(new_state)
+            self.state_list.append(new_state)
             return res
         elif nxt == "finish":
             res.append(set(("user_finish", )))
             self.state["role"] = "sys"
+            self.state_list.append(copy.deepcopy(self.state))
             return res
         else: # nxt == "inform"
             user_acts = set()
@@ -60,6 +66,7 @@ class ActsGenerator(object):
                         pass
             if len(user_acts) > 0:
                 self.state["role"] = "sys"
+                self.state_list.append(copy.deepcopy(self.state))
                 res.append(user_acts)
             return res    
             
@@ -70,6 +77,7 @@ class ActsGenerator(object):
             for ont in self.ontology:
                 if self.state[ont][0] == "weak":
                     sys_acts.add(("sys_makesure", ont))
+            self.state_list.append(copy.deepcopy(self.state))
             res.append(sys_acts)
             ack_prob = self.user_ack_makesure_prob
             ack_res = random_select([(True, ack_prob), \
@@ -78,6 +86,7 @@ class ActsGenerator(object):
                  for ont in self.ontology:
                     if self.state[ont][0] == "weak":
                         self.state[ont] = ("know", self.state[ont][1])
+                 self.state_list.append(copy.deepcopy(self.state))
                  res.append(set(("user_ack", )))
             else: # User randomly re-informs some weak slots
                   # Slots not mentioned will be set to know
@@ -98,26 +107,34 @@ class ActsGenerator(object):
                     for ont in self.ontology:
                         if (ont not in r_cand) and self.state[ont] == "weak":
                             self.state[ont] = ("know", self.state[ont][1])
+                self.state_list.append(copy.deepcopy(self.state))
                 res.append(user_acts) 
             return res # The role is still sys
         elif all([self.state[ont][0]=="know" for ont in self.ontology]): # All slots are known
             # Sys ask 'do you want to hear a report?'
+            self.state_list.append(copy.deepcopy(self.state))
             res.append(set(("sys_report_request", )))
             report_prob = self.user_ack_report_request_prob
             report_ack = random_select([(True, report_prob), \
                                         (False, 1-report_prob)])
             if report_ack: # User wants report
-                res.append(set(("user_ack", )))
+                self.state_list.append(copy.deepcopy(self.state))
+                self.state_list.append(copy.deepcopy(self.state))
+                res.append(set(("user_yes", )))
                 res.append(set(("sys_report", )))
                 report_correct = random_select([(True, self.report_correct_prob), 
                                                 (False, 1 - self.report_correct_prob)])
                 if report_correct:
+                    self.state_list.append(copy.deepcopy(self.state))
+                    self.state_list.append(copy.deepcopy(self.state))
                     res.append(set(("user_ack", )))
                     res.append(set(("sys_finish", )))
                     self.end_of_seq = True
                 else:
                     self.state["role"] = "user" # Change role to user
             else: # User does not want report
+                self.state_list.append(copy.deepcopy(self.state))
+                self.state_list.append(copy.deepcopy(self.state))
                 res.append(set(("user_dont_want_report", )))
                 res.append(set(("sys_finish", )))
                 self.end_of_seq = True
@@ -129,8 +146,10 @@ class ActsGenerator(object):
             for ont in self.ontology:
                 if self.state[ont][0] == "null":
                     sys_acts.add(("sys_request", ont))
+            self.state_list.append(copy.deepcopy(self.state))
             res.append(sys_acts)
             self.state["role"] = "user"
+            
             return res
                     
     def getNextActs(self): # Returns a list of action sets
@@ -145,6 +164,8 @@ class ActsGenerator(object):
                                        (False, 1-start_prob)])
 
             if start_ack:
+                self.state_list.append(copy.deepcopy(self.state))
+                self.state_list.append(copy.deepcopy(self.state))
                 res.append(set(("user_start", )))
                 res.append(set(("sys_ack", )))
             self.dialog_started = True
@@ -161,9 +182,6 @@ class ActsGenerator(object):
         if res == []:
             return self.getNextActs()
         else:
-            cur_state = copy.deepcopy(self.state)
-            for k in range(len(res)):
-                self.state_list.append(cur_state)
             return res
 
     def getActsSeq(self):
@@ -211,4 +229,4 @@ if __name__=="__main__":
     ag = ActsGenerator(conf)
 
     for a in ag.getActsSeq():
-        print a
+        print(a)

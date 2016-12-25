@@ -30,6 +30,36 @@ def getDefaultConfig():
     
     return conf
 
+def getGrammarConfig():
+    conf = {}
+
+    # Each slot in state is a pair (level, value),
+    # e.g. state(when_start) = (high, 13)
+    # All levels and values are initialized to be nulll.
+    conf["state"] = {"role": "user", "what": ("null", "null"), "when_start": ("null", "null"), "duration": ("null", "null"), "who": ("null", "null"), "where": ("null", "null"), "day": ("null", "null")}
+    conf["ontology"] = {"what", "when_start", "duration", "who", "where", "day"}
+
+    # Transition probabilities
+    conf["user_start_prob"] = 0.3
+    conf["user_ack_makesure_prob"] = 0.9
+    conf["user_ack_report_request_prob"] = 0.9
+
+    conf["user_restart_prob"] = 0.05
+    conf["user_report_prob"] = 0.05
+    conf["user_finish_prob"] = 0.05
+    conf["user_inform_prob"] = 0.85
+
+    conf["user_inform_skip_prob"] = 0.1
+    conf["user_inform_new_weak_prob"] = 0.1
+    conf["user_inform_new_know_prob"] = 0.9
+    conf["user_inform_change_prob"] = 0.05
+
+    conf["report_correct_prob"] = 0.9
+
+    conf["acts_decoder"] = "GrammarDecoder"
+    
+    return conf
+
 def getSimpleTaskConfig():
     conf = {}
 

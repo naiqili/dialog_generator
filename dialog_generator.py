@@ -1,6 +1,7 @@
 from conf import *
 from acts_generator import ActsGenerator
 from basic_decoder import BasicDecoder
+from grammar_decoder import GrammarDecoder
 from simple_task_decoder import SimpleTaskDecoder
 from detailed_task_decoder import DetailedTaskDecoder
 import copy
@@ -35,13 +36,13 @@ if __name__=="__main__":
     dg = DialogGenerator(conf)
 
     for k in range(3):
-        print "Test Case:", k
+        print("Test Case:", k)
         dg.genNew()
-        print dg.getActsSeq()
-        print
-        print dg.getStateSeq()
-        print
+        print(dg.getActsSeq())
+        print()
+        print(dg.getStateSeq())
+        print()
         for s in dg.getActsStr():
-            print s
-        print
-        print len(dg.getActsSeq()), len(dg.getStateSeq())
+            print(s)
+        print()
+        print(len(dg.getActsSeq()), len(dg.getStateSeq()))

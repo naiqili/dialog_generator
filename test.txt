@@ -1,0 +1,238 @@
+Test 0:
+user: play sports from 18 : 00 till 19 : 00 . Jianzhong Qi, Rui Zhang, Xiaojie Wang and Yu Sun are also going on this Tuesday at Melbourne School of Design . 
+sys: do you want me to report the details ?
+user: yes .
+sys: you said you want to play sports. the event starts at 18 : 00 on this Tuesday and last for 1 hours 0 minutes. you are also inviting Jianzhong Qi, Rui Zhang, Xiaojie Wang, Yu Sun to go with you .
+user: fine
+sys: ok, the reminder is successfully set .
+
+Test 1:
+user: have dinner . it is december 5 from 16 : 00 till 16 : 00 . the location is Psychology Clinic . i am going with Jianzhong Qi, Rui Zhang and Yu Sun . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have dinner. the event starts at 16 : 00 on december 5 and last for 0 hours 0 minutes. you are also inviting Jianzhong Qi, Rui Zhang, Yu Sun to go with you .
+user: yes
+sys: ok, the reminder is successfully set .
+
+Test 2:
+user: done .
+sys: what about the name of the event, how long it takes, when it starts, the location, the day, whom you are going with ?
+user: i would like to have lunch . Naiqi Li, Jianzhong Qi, Rui Zhang and Yu Sun will be with me . set the day to be next Tuesday . i want to go to Veterinary Research Institute from 03 : 30 till 03 : 30 . 
+sys: are you sure that you are going with Naiqi Li, Jianzhong Qi, Rui Zhang, Yu Sun ?
+user: fine
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have lunch. the event starts at 03 : 30 on next Tuesday and last for 0 hours 0 minutes. you are also inviting Naiqi Li, Jianzhong Qi, Rui Zhang, Yu Sun to go with you .
+user: incorrect , i change my mind . i need to set off at 14 : 30 . 
+sys: are you sure that it starts at 14 : 30 ?
+user: ok
+sys: do you want me to report the details ?
+user: yes .
+sys: you said you want to have lunch. the event starts at 14 : 30 on next Tuesday and last for 0 hours 0 minutes. you are also inviting Naiqi Li, Jianzhong Qi, Rui Zhang, Yu Sun to go with you .
+user: ok
+sys: ok, the reminder is successfully set .
+
+Test 3:
+user: hi . please set up a new reminder for me .
+sys: ok, i am listening .
+user: have dinner . i'm going with Jianzhong Qi, Rui Zhang, Xiaojie Wang and Yu Sun on this Thursday . i want to go at 16 : 30 . alarm me to return at 18 : 30 at Raymond Priestley . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have dinner. the event starts at 16 : 30 on this Thursday and last for 2 hours 0 minutes. you are also inviting Jianzhong Qi, Rui Zhang, Xiaojie Wang, Yu Sun to go with you .
+user: correct
+sys: ok, the reminder is successfully set .
+
+Test 4:
+user: have breakfast from 01 : 30 till 02 : 30 on next Wednesday . Naiqi Li and Jianzhong Qi are going with me at Walter Boas . 
+sys: are you sure that the name of the event is have breakfast  ?
+user: fine
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have breakfast. the event starts at 01 : 30 on next Wednesday and last for 1 hours 0 minutes. you are also inviting Naiqi Li, Jianzhong Qi to go with you .
+user: fine
+sys: ok, the reminder is successfully set .
+
+Test 5:
+user: hello . i wish to set up a memo .
+sys: ok, i am listening .
+user: i wish to take the tram with Naiqi Li, Rui Zhang and Yu Sun . alarm me on next Friday . the place is Kwong Lee Dow Building from 05 : 00 until 05 : 30 . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to take the tram. the event starts at 05 : 00 on next Friday and last for 0 hours 30 minutes. you are also inviting Naiqi Li, Rui Zhang, Yu Sun to go with you .
+user: yes
+sys: ok, the reminder is successfully set .
+
+Test 6:
+user: hello . please set up a reminder for me .
+sys: ok, i am listening .
+user: have dinner at Department of Resource Management and Geography on next Monday with Jianzhong Qi, Rui Zhang, Xiaojie Wang and Yu Sun . i want to set off at 16 : 30 . it finishes at 19 : 00 . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have dinner. the event starts at 16 : 30 on next Monday and last for 2 hours 30 minutes. you are also inviting Jianzhong Qi, Rui Zhang, Xiaojie Wang, Yu Sun to go with you .
+user: yes
+sys: ok, the reminder is successfully set .
+
+Test 7:
+user: from 19 : 30 till 23 : 00 watch movies with Naiqi Li, Jianzhong Qi and Yu Sun . 
+sys: are you sure that it takes 3 hours and 30 minutes ?
+user: yes
+sys: what about the location, the day ?
+user: wrong , you didn't get me . it begins at 07 : 00 , and alarm me april 5 , and set the location to be Lincoln Square North . 
+sys: are you sure that it starts at 07 : 00 ?
+user: ok
+sys: do you want me to report the details ?
+user: no need for the report , thanks .
+sys: ok, the reminder is successfully set .
+
+Test 8:
+user: play sports from 19 : 00 to 23 : 00 at Raymond Priestley with Jianzhong Qi and Xiaojie Wang . 
+sys: are you sure that the location is Raymond Priestley ?
+user: ok
+sys: what about the day ?
+user: that's all of it .
+sys: what about the day ?
+user: report me all what you know so far .
+sys: you said you want to play sports. the event starts at 19 : 00  and last for 4 hours 0 minutes. you are also inviting Jianzhong Qi, Xiaojie Wang to go with you .
+user: it is not right . i will be there for 0 hours and 30 minutes on next Wednesday . 
+sys: are you sure that it takes 0 hours and 30 minutes ?
+user: ok
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to play sports. the event starts at 19 : 00 on next Wednesday and last for 0 hours 30 minutes. you are also inviting Jianzhong Qi, Xiaojie Wang to go with you .
+user: correct
+sys: ok, the reminder is successfully set .
+
+Test 9:
+user: i would like to have breakfast with Jianzhong Qi and Xiaojie Wang . i need to leave at 06 : 00 . it will end at 09 : 00 on april 27 . 
+sys: are you sure that it takes 3 hours and 0 minutes ?
+user: ok
+sys: what about the location ?
+user: the place is General Practice and Melbourne School of Health Sciences . 
+sys: do you want me to report the details ?
+user: i don't want the report , thanks .
+sys: ok, the reminder is successfully set .
+
+Test 10:
+user: i wish to have dinner with Rui Zhang, Xiaojie Wang and Yu Sun at Alan Gilbert Building . it will take 4 hours and 30 minutes on february 27 . 
+sys: are you sure that you are going with Rui Zhang, Xiaojie Wang, Yu Sun ?
+user: that's fine
+sys: what about when it starts ?
+user: it will start from 09 : 30 . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have dinner. the event starts at 09 : 30 on february 27 and last for 4 hours 30 minutes. you are also inviting Rui Zhang, Xiaojie Wang, Yu Sun to go with you .
+user: fine
+sys: ok, the reminder is successfully set .
+
+Test 11:
+user: hi . start a new memo for me .
+sys: ok, i am listening .
+user: i need to have meeting at 21 : 00 , and alarm me to return at 21 : 30 , and i am going to Peter McPhee Centre with Naiqi Li and Jianzhong Qi on october 27 . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have meeting. the event starts at 21 : 00 on october 27 and last for 0 hours 30 minutes. you are also inviting Naiqi Li, Jianzhong Qi to go with you .
+user: it's fine
+sys: ok, the reminder is successfully set .
+
+Test 12:
+user: i want to set up a new reminder .
+sys: ok, i am listening .
+user: watch movies with Jianzhong Qi . it will be june 1 at 11 : 30 to 13 : 30 . 
+sys: are you sure that the day is june 1, it starts at 11 : 30, you are going with Jianzhong Qi ?
+user: ok
+sys: what about the location ?
+user: it is at Medical . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to watch movies. the event starts at 11 : 30 on june 1 and last for 2 hours 0 minutes. you are also inviting Jianzhong Qi to go with you .
+user: report me what you have .
+sys: you said you want to watch movies. the event starts at 11 : 30 on june 1 and last for 2 hours 0 minutes. you are also inviting Jianzhong Qi to go with you .
+user: it is not right . set the day to be this Tuesday , and Naiqi Li, Jianzhong Qi and Yu Sun will be with me . 
+sys: are you sure that the day is this Tuesday, you are going with Naiqi Li, Jianzhong Qi, Yu Sun ?
+user: right
+sys: do you want me to report the details ?
+user: yes .
+sys: you said you want to watch movies. the event starts at 11 : 30 on this Tuesday and last for 2 hours 0 minutes. you are also inviting Naiqi Li, Jianzhong Qi, Yu Sun to go with you .
+user: ok
+sys: ok, the reminder is successfully set .
+
+Test 13:
+user: watch movies . alarm me november 3 . i will be there for 0 hours and 30 minutes . set the location as Graduate Centre with Rui Zhang . 
+sys: what about when it starts ?
+user: it will begin at 14 : 00 . 
+sys: do you want me to report the details ?
+user: yes .
+sys: you said you want to watch movies. the event starts at 14 : 00 on november 3 and last for 0 hours 30 minutes. you are also inviting Rui Zhang to go with you .
+user: ok
+sys: ok, the reminder is successfully set .
+
+Test 14:
+user: take the tram on next Friday , and it's at General Practice and Melbourne School of Health Sciences with Xiaojie Wang from 22 : 00 until 22 : 00 . 
+sys: are you sure that the day is next Friday ?
+user: it's not right . remind me february 14 . 
+sys: are you sure that the day is february 14 ?
+user: it is correct
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to take the tram. the event starts at 22 : 00 on february 14 and last for 0 hours 0 minutes. you are also inviting Xiaojie Wang to go with you .
+user: it's right
+sys: ok, the reminder is successfully set .
+
+Test 15:
+user: i would like to creat a reminder .
+sys: ok, i am listening .
+user: i will be there for 1 hours and 0 minutes . it's october 14 . i would like to go to 221 Bouverie Street, Theatre 1 with Xiaojie Wang . 
+sys: what about the name of the event, when it starts ?
+user: take the bus . it will start from 10 : 00 . 
+sys: are you sure that the name of the event is take the bus  ?
+user: fine
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to take the bus. the event starts at 10 : 00 on october 14 and last for 1 hours 0 minutes. you are also inviting Xiaojie Wang to go with you .
+user: right
+sys: ok, the reminder is successfully set .
+
+Test 16:
+user: i want to have breakfast from 18 : 30 on this Friday . i want to go to Brownless Biomedical Library with Naiqi Li, Jianzhong Qi, Rui Zhang and Xiaojie Wang . 
+sys: what about how long it takes ?
+user: i want to return at 21 : 00 . 
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have breakfast. the event starts at 18 : 30 on this Friday and last for 2 hours 30 minutes. you are also inviting Naiqi Li, Jianzhong Qi, Rui Zhang, Xiaojie Wang to go with you .
+user: it's correct
+sys: ok, the reminder is successfully set .
+
+Test 17:
+user: hi . please set up a reminder for me .
+sys: ok, i am listening .
+user: i wish to have lunch with Jianzhong Qi and Yu Sun . the day is march 27 . set the location as Chemical and Biomolecular Engineering Building 1 from 15 : 30 until 15 : 30 . 
+sys: are you sure that it takes 0 hours and 0 minutes, the name of the event is have lunch  ?
+user: ok
+sys: do you want me to report the details ?
+user: yes .
+sys: you said you want to have lunch. the event starts at 15 : 30 on march 27 and last for 0 hours 0 minutes. you are also inviting Jianzhong Qi, Yu Sun to go with you .
+user: it is not right . Jianzhong Qi, Rui Zhang and Yu Sun will be with me . 
+sys: are you sure that you are going with Jianzhong Qi, Rui Zhang, Yu Sun ?
+user: fine
+sys: do you want me to report the details ?
+user: ok .
+sys: you said you want to have lunch. the event starts at 15 : 30 on march 27 and last for 0 hours 0 minutes. you are also inviting Jianzhong Qi, Rui Zhang, Yu Sun to go with you .
+user: ok
+sys: ok, the reminder is successfully set .
+
+Test 18:
+user: have meeting at Biosciences 4 on november 22 with Naiqi Li from 05 : 30 till 06 : 00 . 
+sys: are you sure that the name of the event is have meeting  ?
+user: yes
+sys: do you want me to report the details ?
+user: i don't want the report .
+sys: ok, the reminder is successfully set .
+
+Test 19:
+user: have dinner may 16 . i want to set off at 17 : 00 , and i will be there for 2 hours and 30 minutes . i want to go to Biosciences 2 with Jianzhong Qi, Rui Zhang, Xiaojie Wang and Yu Sun . 
+sys: do you want me to report the details ?
+user: yes .
+sys: you said you want to have dinner. the event starts at 17 : 00 on may 16 and last for 2 hours 30 minutes. you are also inviting Jianzhong Qi, Rui Zhang, Xiaojie Wang, Yu Sun to go with you .
+user: yes
+sys: ok, the reminder is successfully set .
+
