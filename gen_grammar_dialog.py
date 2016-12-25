@@ -4,7 +4,7 @@ from conf import *
 conf = getGrammarConfig()
 dg = DialogGenerator(conf)
 
-case = 20
+case = 500
 for k in range(case):
     print("Test %d:" % k)
     dg.genNew()

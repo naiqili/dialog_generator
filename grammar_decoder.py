@@ -62,7 +62,7 @@ class GrammarDecoder(object):
                 if e_name != "null":
                     flag = True
                     s = s + "you want to " + \
-                        self.parseEventName(e_name).lower() + ". "
+                        self.parseEventName(e_name).lower() + " . "
                 s = s + "the event "
                 if state["when_start"][1] != "null":
                     flag = True
@@ -72,7 +72,7 @@ class GrammarDecoder(object):
                         s = s + 'on ' + state["day"][1]
                     s = s + " "
                     if state["duration"][1] != "null":
-                        s = s + "and last for %d hours %d minutes. " \
+                        s = s + "and last for %d hours %d minutes . " \
                             % eval(state["duration"][1])
                 if state["who"][1] != "null":
                     flag = True

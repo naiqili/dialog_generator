@@ -40,6 +40,8 @@ class EventGenerator(object):
     def randomDur(self, event_name):
         res_h = random.choice(list(range(0, 5)))
         res_m = random.choice([0, 30])
+        if res_h == 0 and res_m == 0:
+            res_m = 30
         return (res_h, res_m)
 
     def randomNames(self):
