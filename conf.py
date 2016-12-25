@@ -49,7 +49,7 @@ def getGrammarConfig():
     conf["user_finish_prob"] = 0.05
     conf["user_inform_prob"] = 0.85
 
-    conf["user_inform_skip_prob"] = 0.1
+    conf["user_inform_skip_prob"] = 0.4
     conf["user_inform_new_weak_prob"] = 0.1
     conf["user_inform_new_know_prob"] = 0.9
     conf["user_inform_change_prob"] = 0.05

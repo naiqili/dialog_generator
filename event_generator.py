@@ -9,6 +9,7 @@ class EventGenerator(object):
         self.names = ontology['invitee']
         self.names.remove('Dontcare')
         self.locations = list(itertools.chain.from_iterable([loc['short_name'] for loc in ontology['location']]))
+        self.locations.remove('Dontcare')
         self.titles = ontology['title']
 
     def randomEventName(self):
