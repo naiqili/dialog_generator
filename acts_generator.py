@@ -76,10 +76,10 @@ class ActsGenerator(object):
             sys_acts = set()
             for ont in self.ontology:
                 if self.state[ont][0] == "weak":
-                    sys_acts.add(("sys_makesure", ont))
+                    sys_acts.add(("sys_expl_confirm", ont))
             self.state_list.append(copy.deepcopy(self.state))
             res.append(sys_acts)
-            ack_prob = self.user_ack_makesure_prob
+            ack_prob = self.user_ack_expl_confirm_prob
             ack_res = random_select([(True, ack_prob), \
                                      (False, 1 - ack_prob)])
             if ack_res: # User ack that all are correct
@@ -87,7 +87,7 @@ class ActsGenerator(object):
                     if self.state[ont][0] == "weak":
                         self.state[ont] = ("know", self.state[ont][1])
                  self.state_list.append(copy.deepcopy(self.state))
-                 res.append(set(("user_ack", )))
+                 res.append(set(("user_affirm", )))
             else: # User randomly re-informs some weak slots
                   # Slots not mentioned will be set to know
                 weak_slots = [ont for ont in self.ontology \
@@ -120,14 +120,14 @@ class ActsGenerator(object):
             if report_ack: # User wants report
                 self.state_list.append(copy.deepcopy(self.state))
                 self.state_list.append(copy.deepcopy(self.state))
-                res.append(set(("user_yes", )))
+                res.append(set(("user_ack", )))
                 res.append(set(("sys_report", )))
                 report_correct = random_select([(True, self.report_correct_prob), 
                                                 (False, 1 - self.report_correct_prob)])
                 if report_correct:
                     self.state_list.append(copy.deepcopy(self.state))
                     self.state_list.append(copy.deepcopy(self.state))
-                    res.append(set(("user_ack", )))
+                    res.append(set(("user_affirm", )))
                     res.append(set(("sys_finish", )))
                     self.end_of_seq = True
                 else:

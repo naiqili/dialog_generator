@@ -1,6 +1,0 @@
-class SimpleTaskDecoder(object):
-    def __init__(self):
-        pass
-
-    def decode(self, acts_list, states_list):
-        for k in range(len(acts_list)):

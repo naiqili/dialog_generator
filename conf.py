@@ -11,7 +11,7 @@ def getDefaultConfig():
 
     # Transition probabilities
     conf["user_start_prob"] = 0.3
-    conf["user_ack_makesure_prob"] = 0.7
+    conf["user_ack_expl_confirm_prob"] = 0.7
     conf["user_ack_report_request_prob"] = 0.6
 
     conf["user_restart_prob"] = 0.05
@@ -41,7 +41,7 @@ def getGrammarConfig():
 
     # Transition probabilities
     conf["user_start_prob"] = 0.3
-    conf["user_ack_makesure_prob"] = 0.9
+    conf["user_ack_expl_confirm_prob"] = 0.9
     conf["user_ack_report_request_prob"] = 0.9
 
     conf["user_restart_prob"] = 0.05
@@ -71,7 +71,7 @@ def getSimpleTaskConfig():
 
     # Transition probabilities
     conf["user_start_prob"] = 0.0
-    conf["user_ack_makesure_prob"] = 1.0
+    conf["user_ack_expl_confirm_prob"] = 1.0
     conf["user_ack_report_request_prob"] = 1.0
 
     conf["user_restart_prob"] = 0.0
@@ -101,7 +101,7 @@ def getDetailedTaskConfig():
 
     # Transition probabilities
     conf["user_start_prob"] = 0.3
-    conf["user_ack_makesure_prob"] = 0.7
+    conf["user_ack_expl_confirm_prob"] = 0.7
     conf["user_ack_report_request_prob"] = 0.6
 
     conf["user_restart_prob"] = 0.05

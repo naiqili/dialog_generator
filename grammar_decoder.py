@@ -42,12 +42,12 @@ class GrammarDecoder(object):
             act = acts_list[k]
             if act == set(("user_start", )):
                 s = "user: %s ." % (self.decode_from_grammar('USER_START'))
-            if act == set(("user_yes", )):
-                s = "user: %s ." % (self.decode_from_grammar('USER_YES'))
+            if act == set(("user_ack", )):
+                s = "user: %s ." % (self.decode_from_grammar('USER_ACK'))
             elif act == set(("sys_ack", )):
                 s = "sys: ok, i am listening ."
-            elif act == set(("user_ack", )):
-                s = "user: %s" % (self.decode_from_grammar('USER_ACK'))
+            elif act == set(("user_affirm", )):
+                s = "user: %s" % (self.decode_from_grammar('USER_AFFIRM'))
             elif act == set(("user_finish", )):
                 s = "user: %s ." % (self.decode_from_grammar('USER_FINISH'))
             elif act == set(("user_restart", )):
@@ -129,7 +129,7 @@ class GrammarDecoder(object):
                     if a[1] == "day":
                         s = s + "the day, "
                 s = s[:-2] + ' ?'
-            elif list(act)[0][0] == "sys_makesure":
+            elif list(act)[0][0] == "sys_expl_confirm":
                 s = "sys: are you sure that "
                 for a in list(act):
                     state = states_list[k]
