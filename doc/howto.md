@@ -124,10 +124,10 @@ Here 'grammar' is the structure loaded with NLTK, grammar_start is a string (e.g
 
 ## TODO
 
-The genrated sentences are 'raw'. For example: i want to <what> , and <who> will be with me from <st_time> till <ed_time> on <day> at <where>.
+The genrated sentences are 'raw'. For example: i want to <what\> , and <who\> will be with me from <st_time\> till <ed_time\> on <day\> at <where\>.
 
 To generate a valid sentence, we need to replace each token with specific value.
 
-One problem is that there are many ways to say about time. For example, 3: 30 am can be say as 'three thirty am', 'half past three am', 'half past three in the morning', ... In build_data1.py, the function time2str handles <st_time>, <ed_time>. Similarly, a user may say the duration in several different way. The function dur2str handles <dur_time>.
+One problem is that there are many ways to say about time. For example, 3: 30 am can be say as 'three thirty am', 'half past three am', 'half past three in the morning', ... In build_data1.py, the function time2str handles <st_time\>, <ed_time\>. Similarly, a user may say the duration in several different way. The function dur2str handles <dur_time\>.
 
-Replacing other slots, like <what>, <where>, <who> should be easy, but maybe you need to write your own scripts to handle them.
+Replacing other slots, like <what\>, <where\>, <who\> should be easy, but maybe you need to write your own scripts to handle them.
