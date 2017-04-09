@@ -1,0 +1,1118 @@
+{
+    "duration": [
+        "00:30:00",
+        "01:00:00",
+        "01:30:00",
+        "02:00:00",
+        "02:30:00",
+        "03:00:00",
+        "03:30:00",
+        "04:00:00",
+        "04:30:00",
+        "05:00:00",
+        "05:30:00",
+        "06:00:00",
+        "06:30:00",
+        "07:00:00",
+        "07:30:00",
+        "08:00:00",
+        "08:30:00",
+        "09:00:00",
+        "09:30:00",
+        "10:00:00",
+        "10:30:00",
+        "11:00:00",
+        "11:30:00",
+        "12:00:00",
+        "12:30:00",
+        "13:00:00",
+        "13:30:00",
+        "14:00:00",
+        "14:30:00",
+        "15:00:00",
+        "15:30:00",
+        "16:00:00",
+        "16:30:00",
+        "17:00:00",
+        "17:30:00",
+        "18:00:00",
+        "18:30:00",
+        "19:00:00",
+        "19:30:00",
+        "20:00:00",
+        "20:30:00",
+        "21:00:00",
+        "21:30:00",
+        "22:00:00",
+        "22:30:00",
+        "23:00:00",
+        "23:30:00",
+        "24:00:00"
+    ],
+    "frequency": [
+        "once",
+        "daily",
+        "weekly",
+        "monthly",
+        "yearly"
+    ],
+    "interval": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+    ],
+    "invitee": [
+        "Dontcare",
+        "Ricki",
+"Ingemar",
+"Brena",
+"Bela",
+"Arabel",
+"Augusta",
+"Grier",
+"Jeff",
+"Erda",
+"Annalyse",
+"Ximenez",
+"Phillipp",
+"Davina",
+"Regan",
+"Daren",
+"Brooks",
+"Emelda",
+"Hiro",
+"Genny",
+"Van",
+"Joane",
+"Marcellina",
+"Erastus",
+"Rabi",
+"Dasya",
+"Danie",
+"Joanne",
+"Sig",
+"Lyda",
+"Rodolphe",
+"Katlin",
+"Goldia",
+"Kimberley",
+"Selena",
+"Jeromy",
+"Adrian",
+"Olia",
+"Elaina",
+"Etta",
+"Vita",
+"Arne",
+"Chriss",
+"Anatol",
+"Connie",
+"Kyrstin",
+"Dianemarie",
+"Danyelle",
+"Lorraine",
+"Olaf",
+"Davie",
+"Oralle",
+"Giffard",
+"Melvyn",
+"Lorettalorna",
+"Shoshanna",
+"Pris",
+"Marv",
+"Mary",
+"Tomi",
+"Jehu",
+"Ronald",
+"Jean",
+"Neil",
+"Kimmo",
+"Clyde",
+"Guillermo",
+"Alia",
+"Roderick",
+"Elijah",
+"Harvie",
+"Vic",
+"Oral",
+"Peggi",
+"Cy",
+"Barty",
+"Perceval",
+"Goddard",
+"Jennilee",
+"Carry",
+"Melloney",
+"Marylin",
+"Cliff",
+"Cherin",
+"Leo",
+"Morton",
+"Lanni",
+"Eugenie",
+"Damien",
+"Janean",
+"Brenna",
+"Inigo",
+"Karmen",
+"Julius",
+"Kirsten",
+"Chiquita",
+"Em",
+"Jean-Lou",
+"Berenice",
+"Alli",
+"Hailee",
+"Orelia",
+"Vibhu",
+"Dotti",
+"Paolina",
+"Maribeth",
+"Lise",
+"Maggee",
+"Reginald",
+"Ilene",
+"Brodie",
+"Lenore",
+"Sascha",
+"Aurea",
+"Kellen",
+"Robb",
+"Darbie",
+"Hannibal",
+"Ruperta",
+"Annalee",
+"Reggy",
+"Aurelie",
+"Vite",
+"Uta",
+"Ernestine",
+"Merrile",
+"Dante",
+"Clea",
+"Cleland",
+"Abelard",
+"Allie",
+"Bryn",
+"Kellina",
+"Tobie",
+"Nananne",
+"Kristen",
+"Dennie",
+"Issy",
+"Sawyere",
+"Consolata",
+"Corey",
+"Merrill",
+"Crystie",
+"Orsa",
+"Ki",
+"Coral",
+"Leandra",
+"Florinda",
+"Marlow",
+"Lulita",
+"Dorothy",
+"Margalo",
+"Harmon",
+"Enrica",
+"Bobbie",
+"Van",
+"Hewett",
+"Baillie",
+"Kinna",
+"Jenica",
+"Neville",
+"Libby",
+"Eloisa",
+"Jefry",
+"Keeley",
+"Anjela",
+"Sheena",
+"Sashenka",
+"Dani",
+"Pavia",
+"Bianca",
+"Antone",
+"Ajay",
+"Wood",
+"Cob",
+"Anson",
+"Cherida",
+"Peg",
+"Addie",
+"Suzette",
+"Corrie",
+"Zarah",
+"Waneta",
+"Mariejeanne",
+"Ninetta",
+"Lenee",
+"Clair",
+"Mohamed",
+"Aldus",
+"Emmy",
+"Cory",
+"Kalvin",
+"Marna",
+"Winnie",
+"Bary",
+"Rod",
+"Dudley",
+"Quiggly",
+"Dorisa",
+"Guinna",
+"Aloisia",
+"Justin",
+"Markos",
+"Cleva",
+"Edith",
+"Stephannie",
+"Russ",
+"Chicky",
+"Carli",
+"Bevvy",
+"Celestyn",
+"Hans",
+"Han",
+"Janith",
+"Brandice",
+"Berkie",
+"Perla",
+"Amery",
+"Romonda",
+"Alvina",
+"Georgeta",
+"Devin",
+"Minny",
+"Lindsy",
+"Tonie",
+"Lucita",
+"Malva",
+"Inger",
+"Chandal",
+"Padraig",
+"Diena",
+"Dave",
+"Robinett",
+"Sue-elle",
+"Adela",
+"Belle",
+"Gael",
+"Rosetta",
+"Clarette",
+"Merrili",
+"Conney",
+"Randolph",
+"Ferinand",
+"Wally",
+"Gwenni",
+"Antonino",
+"Parwane",
+"Billi",
+"Carl",
+"Leighton",
+"Bobine",
+"Stavros",
+"Boris",
+"Letta",
+"Rutter",
+"Kendal",
+"Nettie",
+"Benni",
+"Madelyn",
+"Edythe",
+"Hedda",
+"Shirline",
+"Jeremy",
+"Sharia",
+"Yigal",
+"Sansone",
+"Anthony",
+"Blaire",
+"Reynold",
+"Trudey",
+"Ariel",
+"Sib",
+"Marcy",
+"Leontyne",
+"Leone",
+"Matilda",
+"Hettie",
+"Karna",
+"Nickie",
+"Constanta",
+"Lynette",
+"Kimberlee",
+"Jeniece",
+"Leonardo",
+"Coleman",
+"Tab",
+"Clarisse",
+"Alex",
+"Ardenia",
+"Timmi",
+"Calypso",
+"Humbert",
+"Emmalynn",
+"Happy",
+"Ulrica",
+"Nelie",
+"Binny",
+"Catlee",
+"Pacifica",
+"Vaclav",
+"Andria",
+"Zebulen",
+"Sean",
+"Devinne",
+"Town",
+"Terese",
+"Meira",
+"Lanna",
+"Pembroke",
+"Laurel",
+"Arliene",
+"Jean-Christophe",
+"Cherry",
+"Ken",
+"Pierre",
+"Roz",
+"Sybilla",
+"Simeon",
+"Thatch",
+"Tucker",
+"Nellie",
+"Christ",
+"Tillie",
+"Romona",
+"Rosella",
+"Kathlene",
+"Baird",
+"Leonelle",
+"Sharity",
+"Halvard",
+"Tonya",
+"Meta",
+"Charlotte",
+"Constance",
+"Milicent",
+"Sidoney",
+"Jerald",
+"Erminie",
+"Vickie",
+"Wilone",
+"Erminia",
+"Meredith",
+"Vinni",
+"Flore",
+"Fox",
+"Ciel",
+"Jesselyn",
+"Sherye",
+"Elden",
+"Leanor",
+"Stacie",
+"Vick",
+"Fran",
+"Baily",
+"Martin",
+"Gustaf",
+"Ammamaria",
+"Sammy",
+"Rori",
+"Bettie",
+"Rickie",
+"Olle",
+"Gerold",
+"Annabell",
+"Butch",
+"Fergus",
+"Carlyle",
+"Hercule",
+"Conrad",
+"Roddie",
+"Karlotte",
+"Olag",
+"Nanette",
+"Johannah",
+"Nancie",
+"Kellie",
+"Elissa",
+"Kirstie",
+"Malissa",
+"Dallas",
+"Nomi",
+"Freeman",
+"Mallorie",
+"Truman",
+"Ulrike",
+"Kristal",
+"Adara",
+"Apollo",
+"Lazlo",
+"Evonne",
+"Brewer",
+"Emyle",
+"Rick",
+"Etty",
+"Solange",
+"Sawyer",
+"Melba",
+"George",
+"Dirk",
+"Charlie",
+"Ulrich",
+"Britani",
+"Mikako",
+"Skipp",
+"Karlotta",
+"Kaleena",
+"Haydon",
+"Worthington",
+"Mellisa",
+"Noam",
+"Antonius",
+"Greg",
+"Viole",
+"Alphonse",
+"Dorian",
+"Lissy",
+"Dorolisa",
+"Cherey",
+"Antonie",
+"Mada",
+"Evelyn",
+"Coreen",
+"Jill",
+"Daloris",
+"Camille",
+"Atlante",
+"Mirabella",
+"Nady",
+"Kylila",
+"Danyette",
+"Bartolemo",
+"Woodie",
+"Jennette",
+"Michaella",
+"Catharine",
+"Wake",
+"Cristen",
+"Izaak",
+"Tammi",
+"Sanford",
+"Blinni",
+"Clayborn",
+"Rikki",
+"Barrie",
+"Standford",
+"Kissiah",
+"Collette",
+"Veronike",
+"Howard",
+"Arel",
+"Morena",
+"Gonzalo",
+"Christalle",
+"Johnathon",
+"Ruby",
+"Blinny",
+"Lorelei",
+"Joya",
+"Douglis",
+"Bradly",
+"Elnora",
+"Ashleigh",
+"Nichol",
+"Chancey",
+"Tymothy",
+"Bernadene",
+"Sven",
+"Marleah",
+"Carlen",
+"Wilfred",
+"Ann",
+"Loree",
+"Gizela",
+"Stephani",
+"Arlie",
+"Saundra",
+"Oran",
+"Lancelot",
+"Berkley",
+"Thedrick",
+"Karlee",
+"Valli",
+"Aleck",
+"Crista",
+"Teodora",
+"Philippe",
+"Monika",
+"Teodoor",
+"Elene",
+"Carroll",
+"Yelena",
+"Kathy",
+"Quintin",
+"Clarissa",
+"Odie",
+"Binky",
+"Martina",
+"Carole",
+"Bogart",
+"Mercy",
+"Dion"
+    ],
+    "location": [
+        {
+            "addr_type": "Dontcare",
+            "full_name": "Dontcare",
+            "short_name": [
+                "Dontcare"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "200 Berkeley Street, G73 Theatrette, General Practice and Melbourne School of Health Sciences (260)",
+            "short_name": [
+                "General Practice and Melbourne School of Health Sciences"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "221 Bouverie Street, Theatre 1",
+            "short_name": [
+                "221 Bouverie Street, Theatre 1"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "221 Bouverie Street, Theatre 2",
+            "short_name": [
+                "221 Bouverie Street, Theatre 2"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "234 Queensberry St. Room 219, Kwong Lee Dow Building (263)",
+            "short_name": [
+                "Kwong Lee Dow Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "234 Queensberry St. Room 227, Kwong Lee Dow Building (263)",
+            "short_name": [
+                "Kwong Lee Dow Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "234 Queensberry St. Room 230, Kwong Lee Dow Building (263)",
+            "short_name": [
+                "Kwong Lee Dow Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Agar Theatre, Biosciences 4 (147)",
+            "short_name": [
+                "Biosciences 4"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Alan Gilbert Theatre 1, Alan Gilbert Building (104)",
+            "short_name": [
+                "Alan Gilbert Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Alan Gilbert Theatre 2, Alan Gilbert Building (104)",
+            "short_name": [
+                "Alan Gilbert Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Alan Gilbert Theatre 3, Alan Gilbert Building (104)",
+            "short_name": [
+                "Alan Gilbert Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Alan Gilbert Theatre 4, Alan Gilbert Building (104)",
+            "short_name": [
+                "Alan Gilbert Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "B127 Project room 4, Melbourne School of Design (133)",
+            "short_name": [
+                "Melbourne School of Design"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Babel Lower Theatrette, Babel (139)",
+            "short_name": [
+                "Babel"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Babel Middle Theatrette, Babel (139)",
+            "short_name": [
+                "Babel"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Baldwin Spencer Theatre, Baldwin Spencer Building (113)",
+            "short_name": [
+                "Baldwin Spencer Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Barbara Falk Room, Elisabeth Murdoch (134)",
+            "short_name": [
+                "Elisabeth Murdoch"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Carrillo Gantner Theatre, Sidney Myer Asia Centre (158)",
+            "short_name": [
+                "Sidney Myer Asia Centre"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Charles Pearson Theatre, ERC (171)",
+            "short_name": [
+                "ERC"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Chemical and Biomolecular Engineering Theatre, Chemical and Biomolecular Engineering Building 1 (165)",
+            "short_name": [
+                "Chemical and Biomolecular Engineering Building 1"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Chisholm Theatrette, Babel (139)",
+            "short_name": [
+                "Babel"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Coles Theatre, Melbourne Business School (202)",
+            "short_name": [
+                "Melbourne Business School"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Computer Lab 111, Alan Gilbert Building (104)",
+            "short_name": [
+                "Alan Gilbert Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Copland Theatre, Business and Economics (110)",
+            "short_name": [
+                "Business and Economics"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Cuming Theatre, Chemistry (153)",
+            "short_name": [
+                "Chemistry"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Denis Driscoll Theatrette, Doug McDonell (168)",
+            "short_name": [
+                "Doug McDonell"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Dining Room, Newman College",
+            "short_name": [
+                "Dining Room, Newman College"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Don Jacobs Memorial Theatre",
+            "short_name": [
+                "Don Jacobs Memorial Theatre"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Dulcie Hollyock Room",
+            "short_name": [
+                "Dulcie Hollyock Room"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Electrical Engineering Brown Theatre, Electrical and Electronic Engineering (193)",
+            "short_name": [
+                "Electrical and Electronic Engineering"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Electrical Engineering Greenwood Theatre, Electrical and Electronic Engineering (193)",
+            "short_name": [
+                "Electrical and Electronic Engineering"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Elisabeth Murdoch Seminar Room, Elisabeth Murdoch (134)",
+            "short_name": [
+                "Elisabeth Murdoch"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Elisabeth Murdoch Theatre A, Elisabeth Murdoch (134)",
+            "short_name": [
+                "Elisabeth Murdoch"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Engineering C1 Theatre, Engineering Block C (174)",
+            "short_name": [
+                "Engineering Block C"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Engineering C2 Theatre, Engineering Block C (174)",
+            "short_name": [
+                "Engineering Block C"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "ESJ King Theatre, Medical (181)",
+            "short_name": [
+                "Medical"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "FBE 211 Theatre, Business and Economics (105)",
+            "short_name": [
+                "Business and Economics"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "FBE 221 Theatre Suite, Business and Economics (105)",
+            "short_name": [
+                "Business and Economics"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "FBE Theatre 3, Business and Economics (105)",
+            "short_name": [
+                "Business and Economics"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Frederic Wood Jones Theatre, Medical (181)",
+            "short_name": [
+                "Medical"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Fritz Loewe Theatre, Earth Sciences (200)",
+            "short_name": [
+                "Earth Sciences"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "FVAS Lower Theatre, Faculty of Veterinary and Agricultural Science (142)",
+            "short_name": [
+                "Faculty of Veterinary and Agricultural Science"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "G16 Lecture Theatre",
+            "short_name": [
+                "G16 Lecture Theatre"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Harold White Theatre",
+            "short_name": [
+                "Harold White Theatre"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Harold Woodruff Theatre, Microbiology (184)",
+            "short_name": [
+                "Microbiology"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Herbert Wilson Theatre, Doug McDonell (168)",
+            "short_name": [
+                "Doug McDonell"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Hercus Theatre",
+            "short_name": [
+                "Hercus Theatre"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Interactive Cinema Space, Arts West (148)",
+            "short_name": [
+                "Arts West"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "JH Michell Theatre, Peter Hall Building (160)",
+            "short_name": [
+                "Peter Hall Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Kathleen Fitzpatrick Theatre, Arts West (148)",
+            "short_name": [
+                "Arts West"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Laby Theatre",
+            "short_name": [
+                "Laby Theatre"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Latham Theatre, Redmond Barry Building (115)",
+            "short_name": [
+                "Redmond Barry Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law 102, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law 104, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law 106, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law 108, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law G08, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law GM16, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Law GM17, Law (106)",
+            "short_name": [
+                "Law"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Lowe Theatre, Redmond Barry Building (115)",
+            "short_name": [
+                "Redmond Barry Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Lyle Theatre, Redmond Barry Building (115)",
+            "short_name": [
+                "Redmond Barry Building"
+            ]
+        },
+        {
+            "addr_type": "venue",
+            "full_name": "Macmahon Ball Theatre, Old Arts (149)",
+            "short_name": [
+                "Old Arts"
+            ]
+        }
+    ],
+    "startDay": [
+        "YYYYMMDD"
+    ],
+    "startTime": [
+        "00:00:00",
+        "00:30:00",
+        "01:00:00",
+        "01:30:00",
+        "02:00:00",
+        "02:30:00",
+        "03:00:00",
+        "03:30:00",
+        "04:00:00",
+        "04:30:00",
+        "05:00:00",
+        "05:30:00",
+        "06:00:00",
+        "06:30:00",
+        "07:00:00",
+        "07:30:00",
+        "08:00:00",
+        "08:30:00",
+        "09:00:00",
+        "09:30:00",
+        "10:00:00",
+        "10:30:00",
+        "11:00:00",
+        "11:30:00",
+        "12:00:00",
+        "12:30:00",
+        "13:00:00",
+        "13:30:00",
+        "14:00:00",
+        "14:30:00",
+        "15:00:00",
+        "15:30:00",
+        "16:00:00",
+        "16:30:00",
+        "17:00:00",
+        "17:30:00",
+        "18:00:00",
+        "18:30:00",
+        "19:00:00",
+        "19:30:00",
+        "20:00:00",
+        "20:30:00",
+        "21:00:00",
+        "21:30:00",
+        "22:00:00",
+        "22:30:00",
+        "23:00:00",
+        "23:30:00"
+    ],
+    "title": [
+"go to a birthday party",
+"visit the dental",
+"water the plants",
+"have a meeting",
+"listened to album",
+"return books",
+"book my flight",
+"go out for dinner",
+"do shopping",
+"make it to the gym",
+"take the GRE",
+"go to a party",
+"go jogging",
+"try the new restaurant",
+"have an interview",
+"check the mailbox",
+"watch a football match",
+"go fishing",
+"pay rent",
+"eat outside",
+"hang out",
+"go to see a doctor",
+"do homework",
+"meditate",
+"do some exercise",
+"go to theater",
+"go out and enjoy a meal",
+"wash my car",
+"attend a party",
+"read a book"
+    ],
+    "untilDay": [
+        "YYYYMMDD"
+    ]
+}

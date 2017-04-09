@@ -1,4 +1,5 @@
 from basic_decoder import *
+import random
 
 def getDefaultConfig():
     conf = {}
@@ -6,7 +7,11 @@ def getDefaultConfig():
     # Each slot in state is a pair (level, value),
     # e.g. state(when_start) = (high, 13)
     # All levels and values are initialized to be nulll.
-    conf["state"] = {"role": "user", "what": ("null", "null"), "when_start": ("null", "null"), "duration": ("null", "null"), "who": ("null", "null"), "where": ("null", "null"), "day": ("null", "null")}
+    start_h = random.randint(0, 23)
+    start_m = random.choice([0, 30])
+    dur_h = random.choice([0, 3])
+    dur_m = random.choice([0, 30])
+    conf["state"] = {"role": "user", "what": ("null", "null"), "when_start": ("null", (start_h, start_m)), "duration": ("null", (dur_h, dur_m)), "who": ("null", "null"), "where": ("null", "null"), "day": ("null", "null")}
     conf["ontology"] = {"what", "when_start", "duration", "who", "where", "day"}
 
     # Transition probabilities

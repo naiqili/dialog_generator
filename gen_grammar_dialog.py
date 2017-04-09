@@ -10,4 +10,6 @@ for k in range(case):
     dg.genNew()
     for s in dg.getActsStr():
         print(s)
+    for s in dg.getActsSeq():
+        print(s)
     print()

@@ -5,7 +5,7 @@ import itertools
 
 class EventGenerator(object):
     def __init__(self, dataroot='./data/'):
-        ontology = json.load(open('./ontology_itime.json'))
+        ontology = json.load(open('./ontology_itime3.json'))
         self.names = ontology['invitee']
         self.names.remove('Dontcare')
         self.locations = list(itertools.chain.from_iterable([loc['short_name'] for loc in ontology['location']]))
@@ -46,9 +46,12 @@ class EventGenerator(object):
         return (res_h, res_m)
 
     def randomNames(self):
-        lst = subsets_of(self.names)
-        lst.remove([])
-        return random_select([(k, 1) for k in lst])
+        lst = []
+        for k in range(4):
+            if len(lst) > 0 and random.random() > 0.8:
+                break
+            lst.append(random.choice(self.names))
+        return lst
 
 if __name__=='__main__':
     eg = EventGenerator()

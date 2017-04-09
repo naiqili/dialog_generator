@@ -1275,20 +1275,6 @@
         },
         {
             "addr_type": "point",
-            "full_name": "Carte Cr\u00eapes",
-            "short_name": [
-                "Carte Cr\u00eapes"
-            ]
-        },
-        {
-            "addr_type": "point",
-            "full_name": "Castro\u2019s Kiosk, South Physics South (192)",
-            "short_name": [
-                "South Physics South"
-            ]
-        },
-        {
-            "addr_type": "point",
             "full_name": "Commonwealth Bank, Biosciences 3 (143)",
             "short_name": [
                 "Biosciences 3"
